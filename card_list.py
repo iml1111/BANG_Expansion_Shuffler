@@ -4,7 +4,7 @@ List = [\
 	{'eng_title':"SERMONE", 'han_title':"예배 시간",\
 	'description':"자신의 턴, <뱅!> 카드를 사용 금지."},\
 	{'eng_title':"ROULETTE RUSSA", 'han_title':"러시안 룰렛",\
-	'description':"이 카드가 발동한 순간, 보완관부터 시작해 순서대로 <빗나감!> 카드를 1장씩 버림. 만약 카드를 버리지 못할 경우, 그 플레이어는 생명령 -2"},\
+	'description':"이 카드가 발동한 순간, 보완관부터 시작해 순서대로 <빗나감!> 카드를 1장씩 버림. 만약 카드를 버리지 못할 경우, 그 플레이어는 생명령 2를 깎는다."},\
 	{'eng_title':"DEAD MAN", 'han_title':"돌아온 망자",\
 	'description':"게임에서 처음 제거된 플레이어는 생명력 2와 카드 2장을 가진 상태로 부활."},\
 	{'eng_title':"AGGUATO", 'han_title':"습격",\
