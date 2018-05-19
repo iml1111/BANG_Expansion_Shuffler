@@ -34,7 +34,7 @@ def Game_progress():
 	shuffle(Card_List)
 	for card in Card_List:
 
-		Game_board(card)
+		Game_board(card,turn)
 
 		if turn == Total_Turns:
 			print("\n\t\t\t\t!!!! 다음 턴에 라스트 카드가 등장합니다 !!!!")
@@ -56,13 +56,16 @@ def Last_Game():
 	print("Thank you.")
 
 
-def Game_board(card):
+def Game_board(card, turn=None):
 	system("cls")
 	print("\t\t\t\t\tBANG_EXPANSION_SHUFFLER \t\t")
 	for i in range(101): print("-",end='')
 	print("\n")
-	print("\t\t\t\t\t\t\t{TURN of Last}")
-	print("\n")
+	if card in Last_list:
+		print("\t\t\t\t\t\t\t{TURN of Last}")
+	else:
+		print("\t\t\t\t\t\t\t{TURN of", turn ,"}")
+	print()
 	etitle = "<" + card["eng_title"].upper() + ">"
 	print("%66s" % etitle)
 	htitle = "[" + card["han_title"] + "]\n"
