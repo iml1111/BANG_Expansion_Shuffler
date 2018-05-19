@@ -1,18 +1,19 @@
 # BANG_Expansion_Shuffler
 
-1. It is a program that shuffles the situation card used in 
+1. It is a program that shuffles the situation card used in the board game 
 
-the board game "BANG Expansion" and automatically draws it out every turn.
+    "BANG Expansion" and automatically draws it out every turn.
 
-The following series are included.
+    
+    % The following series are included.
 
-1. PER UN PUGNO DI CARTE
+    1. PER UN PUGNO DI CARTE
 
-2. WILD WEST SHOW
+    2. WILD WEST SHOW
 
-3. HIGH NOON
+    3. HIGH NOON
 
-4. DIRECTOR'S CUT
+    4. DIRECTOR'S CUT
     
 --------------------------------------------------------------------------------
 
