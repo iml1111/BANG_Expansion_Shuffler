@@ -79,6 +79,8 @@ List = [\
 	'description':"이 카드가 펼쳐졌을 때, 모든 플레이어는 카드 펼치기를 시전한다. 그 후, 하트 문양이 나온 사람들은 그 사람들끼리 시계방향으로 자리를 바꾼다."},\
 	{'eng_title':"Betrayal", 'han_title':"배신",\
 	'description':"이 카드가 펼쳐질 경우 보안관은 카드 펼치기를 한다. 스페이드 문양이 나오면 보안관을 제외한 모든 직업 카드를 섞어서 재분배한다."},\
+	{'eng_title':"TRADE", 'han_title':"물물교환",\
+	'description':"모든 플레이어는 자신의 장착한 카드 전체를 시계 방향으로 교환한다."},\
 	]
 
 Last_list = [\
@@ -92,4 +94,6 @@ Last_list = [\
 			'description':"모든 플레이어의 목적이 마지막에 홀로 살아남는 것으로 변경."},\
 			{'eng_title':"High Noon", 'han_title':"하이 눈",\
 			'description':"모든 플레이어는 자신의 턴이 시작할때 생명점을 하나를 줄이고 시작하게 된다."},\
+			{'eng_title':"DRECTOR'S CUT", 'han_title':"디렉터즈 컷",\
+			'description':"상황 카드를 매 플레이어의 턴이 지날 때마다 계속 바꾼다. 만약 또 라스트 카드를 보게 될 경우, 다시 정지한다."},\
 			]

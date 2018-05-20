@@ -8,8 +8,8 @@ from os import system
 from random import *
 from card_list import List, Last_list
 
-min_turn = 15
-max_turn = 25
+min_turn = 10
+max_turn = 13
 
 def Game_start():
 	system("cls")
@@ -31,7 +31,10 @@ def Game_progress():
 	turn = 1
 	Total_Turns = randrange(min_turn, max_turn+1) - 1
 	Card_List = List
-	shuffle(Card_List)
+	
+	for i in range(111):
+		shuffle(Card_List)
+
 	for card in Card_List:
 
 		Game_board(card,turn)
